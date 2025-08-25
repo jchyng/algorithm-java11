@@ -20,6 +20,7 @@ class 공원산책Test {
     static int H = 0;
     static int W = 0;
 
+    //https://school.programmers.co.kr/learn/courses/30/lessons/172928
     @ParameterizedTest
     @MethodSource("공원산책_파라미터")
     void 공원산책(String[] park, String[] routes, int[] result) {
